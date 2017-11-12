@@ -52,8 +52,8 @@ class FibonacciProgression(Progression):
     def _advance(self):
         self._prev, self.current = self.current, self._prev + self.current
 
-
-Progression().print_progression(10)
-ArithmeticProgression(4).print_progression(10)
-GeometricProgression(2).print_progression(10)
-FibonacciProgression().print_progression(10)
+if __name__ == '__main__':
+    Progression().print_progression(10)
+    ArithmeticProgression(4).print_progression(10)
+    GeometricProgression(2).print_progression(10)
+    FibonacciProgression().print_progression(10)

@@ -6,6 +6,7 @@ def unique1(S):
                 return False
     return True
 
+
 def unique2(S):
     """ O(nlogn) """
     temp = sorted(S)
